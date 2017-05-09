@@ -1,0 +1,31 @@
+h1, h2, h3, h4, h5 {
+	color: #BADA55;
+}
+
+#def-save, #signup, #login, #log-save, #send-chat {
+  background-color: #BADA55;
+  border: 1px solid white;
+  color: white;
+}
+
+.container {
+  width: 75% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important; }
+
+.col-xs-12 {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+header .well {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+  header .well .user-links {
+    float: right;
+    color: #ccc; }
+    header .well .user-links a {
+      cursor: pointer; }

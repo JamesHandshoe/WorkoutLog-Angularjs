@@ -1,0 +1,12 @@
+<div class = "col-sm-12">
+	<h2>Feed</h2>
+	<ul class="list-group">
+		<li class="list-group-item" ng-repeat="item in ctrl.feed">
+		{{item.username}} - {{item.message}}
+		</li>
+	</ul>
+	<label>Send a Message</label>
+	<textarea class="form-control" ng-model="ctrl.msg.message" rows="3"></textarea>
+	<br>
+	<button id="send-chat" ng-click="ctrl.create()" class="btn btn-primary">Send</button>
+</div>

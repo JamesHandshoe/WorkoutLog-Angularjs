@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+ <html ng-app="workoutlog">
+   <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Workout Log</title>
+     <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" >
+     <link rel="stylesheet" href="/content/app.css" >
+   </head>
+   <body>
+
+     	<nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" ui-sref="logs">Workout Log</a>
+          </div>
+          <userlinks></userlinks>
+        </div>
+      </nav>
+
+      <div ui-view></div>
+
+      <script src="bower_components/angular-loader/angular-loader.min.js"></script>
+      <script src="bower_components/angular/angular.min.js"></script>
+      <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+      <script src="bower_components/jquery/dist/jquery.min.js"></script>
+      <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+      <!--<script src="bower_components/angular-socket-io/socket.js"></script>
+      <script src="//localhost:3000/socket.io/socket.io.js"></script> -->
+      <script src="content/bundle.js"></script>
+   </body>
+ </html>

@@ -1,0 +1,14 @@
+<div class="container">
+	<div class = "col-sm-12">
+		<h2>History</h2>
+		<ul class="list-group">
+			<li class="list-group-item" ng-repeat="item in ctrl.history">
+				{{item.def}} - {{item.result}}
+				<div class="pull-right">
+					<a ng-click="ctrl.delete(item)"><span class="glyphicon glyphicon-trash" ></span></a>
+					<a ng-click="ctrl.updateLog(item)"><span class="glyphicon glyphicon-edit" ></span></a>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>

@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="col-sm-12">
+        <h2>Update a Log</h2>
+        <label>Result</label>
+        <input type="hidden" class="form-control" ng-model="ctrl.updateLog.id" />
+        <input type="text" class="form-control"  ng-model="ctrl.updateLog.result"/>
+        <label>Workout Select</label>
+        <select class="form-control" ng-options="item.description as item.description for item in ctrl.userDefinitions" ng-model="ctrl.updateLog.def">
+        </select>
+        <label>Notes</label>
+        <textarea class="form-control" rows="3" ng-model="ctrl.updateLog.description" ></textarea>
+        <p ng-show="ctrl.saved">You created a new log</p>
+        <br>
+        <button id="log-save" class="btn btn-primary" ng-click="ctrl.updateSingleLog()">Update</button>
+    </div>
+</div>

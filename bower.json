@@ -1,0 +1,24 @@
+{
+  "name": "ngworkouts",
+  "description": "ng workout log",
+  "main": "index.js",
+  "authors": [
+    "James Handshoe"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-loader": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap": "^3.3.7",
+    "angular-socket-io": "^0.7.0"
+  }
+}

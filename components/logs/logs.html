@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="col-sm-12">
+        <h2>Log</h2>
+        <label>Result</label>
+        <input type="text" class="form-control"  ng-model="ctrl.log.result"/>
+        <label>Workout Select</label>
+        <select class="form-control" ng-options="item.description as item.description for item in ctrl.userDefinitions" ng-model="ctrl.log.def">
+        </select>
+        <label>Notes</label>
+        <textarea class="form-control" rows="3" ng-model="ctrl.log.desc" ></textarea>
+        <p ng-show="ctrl.saved">You created a new log</p>
+        <br>
+        <button id="log-save" class="btn btn-primary" ng-click="ctrl.save()">Save</button>
+    </div>
+</div>

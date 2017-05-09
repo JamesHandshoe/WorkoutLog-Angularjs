@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-6 col-xs-offset-4">
+      <h3>Sign In</h3>
+      <form id="new_user" ng-submit="ctrl.login()">
+        <p>
+          <label for="username">Username</label><br>
+          <input type="text" name="username" ng-model="ctrl.user.username" required>
+        </p>
+        <p>
+          <label for="password">Password</label><br>
+          <input type="password" name="password" ng-model="ctrl.user.password" required>
+        </p>
+        <input type="submit" id="login" name="commit" value="Login" class="btn btn-default">
+        <span class="login">
+          Don't have an account?
+          <a ui-sref="signup">Sign Up.</a>
+        </span>
+      </form>
+    </div>
+  </div>
+</div>
