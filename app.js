@@ -23,6 +23,6 @@
 
 	config.$inject = [ '$urlRouterProvider' ];
 	app.config(config);
-	var API_BASE = "//gutbuster-api.herokuapp.com/";	
+	var API_BASE = location.hostname === "localhost" ? "//localhost:3000/api/" : "//gutbuster-api.herokuapp.com/";	
 	app.constant('API_BASE', API_BASE);
 })();
