@@ -4,7 +4,7 @@
   "description": "ng workout log",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/http-server -a localhost -p 8080",
+    "start": "./node_modules/.bin/http-server",
     "prestart": "npm install",
     "postinstall": "bower install"
   },
@@ -17,6 +17,10 @@
     "gulp-connect": "^5.0.0",
     "gulp-plumber": "^1.1.0",
     "gulp-sourcemaps": "^1.6.0",
+    "http-server": "^0.9.0"
+  },
+  "dependencies": {
+    "bower": "^1.8.0",
     "http-server": "^0.9.0"
   }
 }
