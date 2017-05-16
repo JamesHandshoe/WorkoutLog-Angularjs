@@ -1,9 +1,9 @@
 h1, h2, h3, h4, h5 {
-	color: #BADA55;
+  color: #D9514E;
 }
 
-#def-save, #signup, #login, #log-save, #send-chat {
-  background-color: #BADA55;
+#def-save, #signup, #login, #log-save {
+  background-color: #D9514E;
   border: 1px solid white;
   color: white;
 }
